@@ -12,9 +12,9 @@ import (
 )
 
 var (
-	charsetp = flag.String("charset", "AbCdEfGhIjKlMnOpQR.,=+!@#^", "set of characters to paint shape with")
-	randomp  = flag.Bool("random", true, "create random pattern for each line")
-	periodp  = flag.Int("width", 10, "pattern width to use")
+	charsetP = flag.String("charset", "AbCdEfGhIjKlMnOpQR.,=+!@#^", "set of characters to paint shape with")
+	randomP  = flag.Bool("random", false, "create random pattern for each line")
+	periodP  = flag.Int("width", 20, "pattern width to use")
 )
 
 func main() {
@@ -28,12 +28,12 @@ func main() {
 		flag.Usage()
 	}
 	// Get the charset, randomize, truncate
-	pattern := makeRandomText(*charsetp, *periodp)
+	pattern := makeRandomText(*charsetP, *periodP)
 	// Paint the shape with the pattern
 	lines := strings.Split(shape, "\n")
 	for _, line := range lines {
-		if *randomp {
-			pattern = makeRandomText(*charsetp, *periodp)
+		if *randomP {
+			pattern = makeRandomText(*charsetP, *periodP)
 		}
 		paintedLine := paint(line, pattern)
 		// fmt.Println(line)
@@ -92,7 +92,7 @@ func paint(line, pattern string) string {
 	return string(buf)
 }
 
-// makeRandomText shuffes INPUT returning the first GOAL characters
+// makeRandomText shuffles INPUT returning the first GOAL characters
 func makeRandomText(input string, goal int) string {
 	if len(input) == 0 {
 		panic("Invalid argument")
