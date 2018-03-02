@@ -13,9 +13,16 @@ import (
 
 var (
 	charsetP = flag.String("charset", "AbCdEfGhIjKlMnOpQR.,=+!@#^", "set of characters to paint shape with")
-	randomP  = flag.Bool("random", false, "create random pattern for each line")
+	randomP  = flag.Bool("random", false, "create a new random pattern for each line")
 	periodP  = flag.Int("width", 20, "pattern width to use")
 )
+
+func usage() {
+	base := filepath.Base(os.Args[0])
+	fmt.Fprintf(os.Stderr, "Usage: %s [-charset chars] [-random] [-width int] shapepath\n", base)
+	fmt.Fprintf(os.Stderr, "shapepath is a text file with a rectangular array of digits\n")
+	flag.PrintDefaults()
+}
 
 func main() {
 	flag.Usage = usage
@@ -28,24 +35,17 @@ func main() {
 		flag.Usage()
 	}
 	// Get the charset, randomize, truncate
-	pattern := makeRandomText(*charsetP, *periodP)
+	pattern := shuffleText(*charsetP, *periodP)
 	// Paint the shape with the pattern
 	lines := strings.Split(shape, "\n")
 	for _, line := range lines {
 		if *randomP {
-			pattern = makeRandomText(*charsetP, *periodP)
+			pattern = shuffleText(*charsetP, *periodP)
 		}
 		paintedLine := paint(line, pattern)
 		// fmt.Println(line)
 		fmt.Println(paintedLine)
 	}
-}
-
-func usage() {
-	base := filepath.Base(os.Args[0])
-	fmt.Fprintf(os.Stderr, "Usage: %s [-charset chars] [-random] [-width int] shapepath\n", base)
-	fmt.Fprintf(os.Stderr, "where shapepath is a text file with a rectangular shape painted with 0's, 1's, 2's, etc\n")
-	flag.PrintDefaults()
 }
 
 func getShape() (string, error) {
@@ -65,50 +65,37 @@ func paint(line, pattern string) string {
 	}
 	period := len(pattern)
 	buf := []rune(pattern)
-	for i, r := range line {
-		// calculate the character to append by looking back in the buffer
-		// the amount to look back depends on the plane being painted
-		// 0 - very far, 1 - far, 2 - close, 3 - very close
-		var p int
-		switch r {
-		case '0', ' ':
-			p = period
-		case '1':
-			p = period - 1
-		case '2':
-			p = period - 2
-		case '3':
-			p = period - 3
-		}
-		if p > 0 {
-			if len(buf) >= p {
-				r = buf[len(buf)-p]
-			} else {
-				r = rune(pattern[i])
-			}
+	used := make([]bool, period)
+	for _, r := range line {
+		// Calculate the character to append by looking back in the buffer.
+		// The period of repetition depends on the plane being painted.
+		if p := getPeriod(period, r); p > 0 {
+			j := unused(used, len(buf)-p)
+			r = buf[j]
+			used[j] = true // buf[j] now used
 		}
 		buf = append(buf, r)
+		used = append(used, false)
 	}
 	return string(buf)
 }
 
-// makeRandomText shuffles INPUT returning the first GOAL characters
-func makeRandomText(input string, goal int) string {
-	if len(input) == 0 {
-		panic("Invalid argument")
+func getPeriod(period int, r rune) int {
+	var p int
+	switch r {
+	case '0', ' ':
+		p = period
+	case '1', '2', '3', '4', '5', '6', '7', '8', '9':
+		p = period - int(r-'0')
 	}
+	return p
+}
 
-	// Extend the input if needed
-	for len(input) < goal {
-		input = input + input
+// unused returns the index j if not used or the first unused index instead
+func unused(used []bool, j int) int {
+	if used[j] {
+		for j = 0; used[j]; j++ { // find first unused
+		}
 	}
-
-	// Shuffle the bytes using the Fisher-Yates algorithm
-	a := []byte(input)
-	for i := len(a) - 1; i > 0; i-- {
-		j := rand.Intn(i + 1)
-		a[i], a[j] = a[j], a[i]
-	}
-
-	return string(a[:goal])
+	return j
 }

@@ -33,56 +33,78 @@ The text below shows one such generated image. See if you can see the hidden
 objects.
 
 ```text
-AOplfMR.bEAOplfMR.bEAOplfMR.bEAOplfMR.bEAOplfMR.bEAOplfMR.bEAOplfMR.bE
-AGjf,pn+I.AGjf,pn+I.AGjf,pn+I.AGjf,pn+I.AGjf,pn+I.AGjf,pn+I.AGjf,pn+I.
-AQOCb^.d#MAQOCb^.d#MAQOCb^.d#MAQOCb^.d#MAQOCb^.d#MAQOCb^.d#MAQOCb^.d#M
-^.f+#lKR,Q^.f+#R,Q^.f+#R#R,Q^.f+#R#R,Q^ff+#R#R,Q^ff+#R#Q^ff+#R#Q#Q^ff+
-Rh+@MCKIlARh+@MIlARh+@MIMIlARh+@MIMIlAh+@@MIMIlAh+@@MIMAh+@@MIMAMAh+@@
-E^bpjMKdlIE^bpjdlIE^bpjdjdlIE^bpjdjdlE^bpjjdjdlE^bpjjdjE^bpjjdjEjE^bpj
-A,pRfI#@d=A,pRf@d=A,pRf@f@d=A,pRf@f@=A,pRf@@f@=A,pRf@@fA,pRf@@fAfA,pRf
-@fOh.A,QK+@fOh.QK+@fOh.Q.QK+@fOh.Q.K+@fOh.Q..K+@fOh.Q..@fOh.Q..@.@fOh.
-h,bM@fOAl=h,bM@Al=h,bM@A@Al=h,bM@AAl=h,bM@AAll=h,bM@AAlh,bM@AAlhlh,bM@
-h.fGbORjd,h.fGbjd,h.fGbjbjd,h.fGbbjd,h.fGbbjd,,h.fGbbjdh.fGbbjdhdh.fGb
-Kfn=bhRMO+Kfn=bMO+Kfn=bMbMO+Kfn=MbMO+KKfnMbMO+KKKfnMbMOKKfnMbMOKOKKfnM
-@EnlM!.hGR@EnlMhGR@EnlMhMhGR@EnMhMhGGR@EnMhhGGR@@EnMhhG@@EnMhhG@G@@EnM
-#=b,.@AMEK#=b,.MEK#=b,.M.MEK#=,.M.MEEK#=,.MMEEK#==,.MME#==,.MME#E#==,.
-p!QfjME@.dp!Qfj@.dp!Qfj@j@.dpQfj@j@@.dpQfj@j@.dpQffj@j@pQffj@j@p@pQffj
-.G^@,fpMjE.G^@,MjE.G^@,M,MjE.G@,M,MjjE.G@,MMjjE.GG@,MMj.GG@,MMj.j.GG@,
-@GO!d+=nfC@GO!dnfC@GO!dndnfC@GOdndnffC@GOdnnffC@@GOdnnf@@GOdnnf@f@@GOd
-d#KCAGEQOnd#KCAQOnd#KCAQAQOnd#KCQAQOndd#KQAQOnddd#KQAQOdd#KQAQOdOdd#KQ
-KdAn#lRh=IKdAn#h=IKdAn#h#h=IKdAn##h=IKdAn##h=IIKdAn##h=KdAn##h=K=KdAn#
-pGlQKC,#IfpGlQK#IfpGlQK#K#IfpGlQK##IfpGlQK##IIfpGlQK##IpGlQK##IpIpGlQK
-OnfI#l!+pMOnfI#+pMOnfI#+#+pMOnfI#+#pMOnfI#+##pMOnfI#+##OnfI#+##O#OnfI#
-+fCjQGI^lR+fCjQ^lR+fCjQ^Q^lR+fCjQ^Q^R+fCjQ^^Q^R+fCjQ^^Q+fCjQ^^Q+Q+fCjQ
-Af^l,hndIQAf^l,dIQAf^l,d,dIQAf^l,d,dIAf^l,,d,dIAf^l,,d,Af^l,,d,A,Af^l,
-OK^,nCGh.dOK^,nh.dOK^,nhnh.dOK^,nhnh.dK^,,nhnh.dK^,,nhndK^,,nhndndK^,,
-,jl^+@pIMh,jl^+IMh,jl^+I+IMh,jl^+I+IMh,ll^+I+IMh,ll^+I+h,ll^+I+h+h,ll^
-!=^QM+.,Af!=^QM+.,Af!=^QM+.,Af!=^QM+.,Af!=^QM+.,Af!=^QM+.,Af!=^QM+.,Af
-fC#QnOMb.=fC#QnOMb.=fC#QnOMb.=fC#QnOMb.=fC#QnOMb.=fC#QnOMb.=fC#QnOMb.=
-CEbG#+^,=lCEbG#+^,=lCEbG#+^,=lCEbG#+^,=lCEbG#+^,=lCEbG#+^,=lCEbG#+^,=l
+QAIjR+nfdK!lbO,#QAIjR+nfdK!lbO,#QAIjR+nfdK!lbO,#QAIjR+nfdK!lbO,#QAIjR+nfdK!l
+EC!+M=hA.^@ObQlGEC!+M=hA.^@ObQlGEC!+M=hA.^@ObQlGEC!+M=hA.^@ObQlGEC!+M=hA.^@O
+RGO^.EIKMp!d@b=,RGO^.EIKMp!d@b=,RGO^.EIKMp!d@b=,RGO^.EIKMp!d@b=,RGO^.EIKMp!d
+Cpf+jA,^QMhI!KbdCpf+j^QMhI!KbdA,Cpf+j^QMhI!KbAd,Cpf+j^QMhI!Kb,Cpf+j^QMAdhI!K
+I#OnCGQM+bEp^.A=I#OnCM+bEp^.A=GQI#OnCM+bEp^.=GQAI#OnCM+bEp^.=AI#OnCM+bGQEp^.
+AIj^pd@.fnOh!=bEAIj^p.fnOh!=bEd@AIj^p.fnOh!bEd@A=Ij^p.fnOh!bEA=Ij^p.fnd@Oh!b
+KI,=hMR.ljOdf+GCKI,=h.ljOdf+GCMRKI,=h.ljOd+GCMRKIf,=h.ljOd+GCKIf,=h.ljMROd+G
+b.IEG=Qj+ndhR,f!b.IEGj+ndhR,f!=Qb.IEGj+ndR,f!=Qb.IhEGj+ndR,f!b.IhEGj+n=QdR,f
++G!@lMQO,#RA=npK+G!@lO,#RA=npKMQ+G!@lO,#A=npKMQ+G!@RlO,#A=npK+G!@RlO,#MQA=np
+.^fCIbpKjQAlRG=h.^fCIKjQAlRG=hbp.^fCIKjAlRG=hbp.^fCIQKjAlRG=h.^fCIQKjAbplRG=
+C@Oj=.E#Qf!,+dhlC@Oj=#Qf!,+dhl.EC@Oj=#f!,+dhQl.C@Oj=#Ef!,+dhQC@Oj=#Ef!l.,+dh
+hG#bj!E.lpnKAIOQhG#bj.lpnKAIOQ!EhG#bjlpnKA.IOQ!Eh#bjlpGnKA.IOEh#bjlpGnQ!KA.I
+h#IRMfEjK@+GnCA^h#IRMjK@+GnCA^fEh#IRjK@+GnMCA^fEhIRjK@+#GnMCAEhIRjK@+#^fGnMC
++lQRbh^G!AMECd=K+lQRbG!AMECd=Kh^+lQbG!AMERCd=Kh^+lbG!AMEQRCd=^+lbG!AMEKhQRCd
+dhRAG+M^fK@blIE=dhRAG^fK@blIE=+MdhRA^fK@blGIE=+MdRA^fK@hblGIEMdRA^fK@h=+blGI
+ME!#ROGbnj.lQC^AME!#Rbnj.lQC^AOGME!#Rnj.lQbC^AOGM!#RnjE.lQbC^GM!#RnjE.AOlQbC
+.h+,ACOjpQdlMn#!.h+,AjpQdlMn#!CO.h+,AjQdlMn#p!C.h+,AjOQdlMn#p.h+,AjOQd!ClMn#
+#K^=G,b+IEnQjlRf#K^=G+IEnQjlRf,b#K^=G+InQjlRf,b#K^=GE+InQjlRf#K^=GE+In,bQjlR
+!fbnjd+MI,GQ.#K@!fbnjMI,GQ.#K@d+!fbnjMI,Q.#K@d+!fbnGjMI,Q.#K@!fbnGjMI,d+Q.#K
+!#R@.OlpfMdbnAEh!#R@.pfMdbnAEhOl!#R@.pfMdnAEhOl!#Rb@.pfMdnAEh!#Rb@.pfMOldnAE
+MGjnl+hdAE@^O=Q.MGjnldAE@^O=Q.+hMGjnldAE@^=Q.+hMGOjnldAE@^=Q.MGOjnldAE+h@^=Q
+InM=Gf^lAK@hdO#EInM=GlAK@hdO#Ef^InM=GlAK@hd#Ef^IOnM=GlAK@hd#EIOnM=GlAKf^@hd#
+!+,Kn^QGlOjRCf=p!+,KnGlOjRCf=p^Q!+,KnGlOjRCfp^Q=!+,KnGlOjRCfp=!+,KnGlO^QjRCf
+KjlQId=fE.hbCMp^KjlQIfE.hbCMp^d=KjlQIfE.hbCMpd^=KjlQIfE.hbCMp=KjlQIfE.d^hbCM
+,MIpRCnEQ+.KGdfj,MIpRCnEQ+.KGdfj,MIpRCnEQ+.KGdfj,MIpRCnEQ+.KGdfj,MIpRCnEQ+.K
+fAb!Odj^GI.@M=plfAb!Odj^GI.@M=plfAb!Odj^GI.@M=plfAb!Odj^GI.@M=plfAb!Odj^GI.@
+f@Qd=,GIlK#+jph.f@Qd=,GIlK#+jph.f@Qd=,GIlK#+jph.f@Qd=,GIlK#+jph.f@Qd=,GIlK#+
 ```
 
-The input for the algorithm is a rectangle of digits.  The greater the 
-digit the closer the plane will appear.  The background is represented
-by the digit zero (or a blank).  Using Emacs picture mode is one way
-of preparing these images.
+The input for the algorithm is a rectangle of digits. The greater the digit the
+closer the plane will appear in 3D. The background is represented by the digit
+zero (or a blank). Using Emacs picture mode is one way of preparing these
+images. Below is the pattern for a house.
 
 ```text
-                                       .
-  4       5       6                    .
-     5              2    6      4      .
-         3    6    212                 .
-                  21112 3         3 5  .
-   6     5       2111112      4        .
-                211111112  6           .
- 4     3     6 211  1  112             .
-              2111  1  1112      5     .
-        5    2 111  1 6111 2        3  .
-   6           11111111111             .
-            6  11111111111   3         .
- 3             11122222111     4  5    .
-       5       1112  62111  4          .
-  6            1112   2111             .
-           6   1112   2111             .
-     5         5      6       4  3  5  .
+                                        
+                                        
+                    2                   
+                   222  111             
+                  22222 111             
+         1       2222222111             
+        111     22222222211             
+       11111   222     2221             
+      1111111 2222     2222             
+     11     122222     22222            
+    111     1222222222222222            
+    111     12222222222222221111111     
+    11111111122222     222221111111     
+    11111111122222     222221111111     
+    11111111122222     222221111111     
+    11111111122222     222221111111     
+33333333333333333333333333333333333333333
+```
+
+The output, using a 16 character wide random pattern is this:
+
+```text
+^bKhE,p.=nIOGQfj^bKhE,p.=nIOGQfj^bKhE,p.=nIOGQfj^bKhE,p.
+=db#M.EnA@GpjOhQ=db#M.EnA@GpjOhQ=db#M.EnA@GpjOhQ=db#M.En
+G^h+EO!nd@RKjlMbG^h+EO!nd@RKjlMbG^h+!OEnd@RKjlMbG^h+!OEn
+M#GhInKCp+dA@,E.M#GhInKCp+dA@,E.M#GnKChI+dAp@,E.M#GnKChI
+=f^#AM+,KhdjGp.I=f^#AM+,KhdjGp.I=fAM+,K^hdj#Gp.I=fAM+,K^
+,O=Q#+GKlI.hEMf^,O=Q#+GKl.IhEMf^,Q#+GKl.OIh=EMf^,Q#+GKl.
+fl!M.jQCKRG@EbO,fl!M.jQCRG@KEbO,!M.jQCRG@fKlEbO,!M.jQCRG
+#hKGM@dAI,+njR.E#hKGM@dI,+njAR.hKGE#M@d+njI,AR.hKGE#M@d+
+RC+IOjKlh^Q#!EG.RC+IOjlh^Q#!EKRC+IG.OjlQ#!Eh^KRC+IG.OjlQ
+MjbdKOA,fp=#^l+IMjbdKA,Ofp=#lIMjbd^+KA,p=#lIOfMjbd^+KA,p
+b,+CfMR!Gd@phIE=b,+CMR!fGd@pI=b,+CMR!fGd@pI=hEb,+CMR!fGd
+!d@bO.#GKnQCEIp+!d@b.#GOKnQCI+!d@b.#GOKnQCI+E!d@b.#pGOKn
+pK^C=+O#QlEn.GdbpK^C+O#QlEn.GbpK^C=d+O#En.GbQpK^C=dl+O#E
+p^h.Gj#,QM=l!CnOp^h.j#,QM=l!COp^h.Gnj#,=l!COQp^h.GnMj#,=
+GdQbI=OfjE.C,A@KGdQb=OfjE.C,AKGdQbI@=Of.C,AKjGdQbI@E=Of.
+fMQA#=RC.I!E,K^bfMQA=RC.I!E,KbfMQA#^=RC!E,Kb.fMQA#^I=RC!
+b=ldC#fAn.K@Ej^,dC#fAn.K@Ej^,dC#fAn.K@Ej^,dC#fAn.K@Ej^,d
 ```
