@@ -15,11 +15,13 @@ var (
 	charsetP = flag.String("charset", "AbCdEfGhIjKlMnOpQR.,=+!@#^", "set of characters to paint shape with")
 	randomP  = flag.Bool("random", false, "create a new random pattern for each line")
 	periodP  = flag.Int("width", 20, "pattern width to use")
+	invertP  = flag.Bool("invert", false, "invert the depth for cross-eyed viewing")
+	nopadP   = flag.Bool("nopad", false, "do not pad all lines to match max line")
 )
 
 func usage() {
 	base := filepath.Base(os.Args[0])
-	fmt.Fprintf(os.Stderr, "Usage: %s [-charset chars] [-random] [-width int] shapepath\n", base)
+	fmt.Fprintf(os.Stderr, "Usage: %s [-charset chars] [-random] [-invert] [-width int] shapepath\n", base)
 	fmt.Fprintf(os.Stderr, "shapepath is a text file with a rectangular array of digits\n")
 	flag.PrintDefaults()
 }
@@ -38,6 +40,9 @@ func main() {
 	pattern := shuffleText(*charsetP, *periodP)
 	// Paint the shape with the pattern
 	lines := strings.Split(shape, "\n")
+	if !*nopadP {
+		padLines(lines)
+	}
 	for _, line := range lines {
 		if *randomP {
 			pattern = shuffleText(*charsetP, *periodP)
@@ -81,14 +86,19 @@ func paint(line, pattern string) string {
 }
 
 func getPeriod(period int, r rune) int {
-	var p int
+	var i int
 	switch r {
 	case '0', ' ':
-		p = period
+		i = 0
 	case '1', '2', '3', '4', '5', '6', '7', '8', '9':
-		p = period - int(r-'0')
+		i = int(r - '0')
+	default:
+		return 0 // special case to keep existing rune
 	}
-	return p
+	if *invertP {
+		i = 9 - i
+	}
+	return period - i
 }
 
 // unused returns the index j if not used or the first unused index instead
@@ -98,4 +108,19 @@ func unused(used []bool, j int) int {
 		}
 	}
 	return j
+}
+
+func padLines(lines []string) {
+	var max int
+	for _, s := range lines {
+		if len(s) > max {
+			max = len(s)
+		}
+	}
+	pad := strings.Repeat(" ", max)
+	for i, l := range lines {
+		if len(l) < max {
+			lines[i] = (l + pad)[0:max]
+		}
+	}
 }
