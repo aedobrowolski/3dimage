@@ -17,7 +17,8 @@ distance.
 ```
 
 By staring at the blank space between columns and relaxing your eyes you should
-be able to make the left and right columns overlap. Instead of two columns you
+be able to make the left and right columns overlap. Try zooming out in your
+browser (e.g. 70%) if you cannot get overlap easily. Instead of two columns you
 will see three columns and the middle column will appear in to contain text
 that recedes in space.
 
@@ -108,3 +109,11 @@ GdQbI=OfjE.C,A@KGdQb=OfjE.C,AKGdQbI@=Of.C,AKjGdQbI@E=Of.
 fMQA#=RC.I!E,K^bfMQA=RC.I!E,KbfMQA#^=RC!E,Kb.fMQA#^I=RC!
 b=ldC#fAn.K@Ej^,dC#fAn.K@Ej^,dC#fAn.K@Ej^,dC#fAn.K@Ej^,d
 ```
+
+To build the exe you must have go installed on your system. Then cd into the
+cmd/3dimage folder and type "go build". You will find a new binary/exe called
+3dimage in the folder. Running the program with no arguments shows the help.
+
+I welcome pull requests for your own samples which I can put into the samples
+folder. Hope you have as much fun playing with this project as my 12 year old
+son and I had building it.
